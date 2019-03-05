@@ -23,14 +23,11 @@ git remote add origin {new project address}
 ##### Can also edit the git config file to change remote address:
 ```shell
 cd myoldProject
-```
-```shell
+
 vi ./.git/config
-```
-```text
+
 edit the url under '[remote "origin"]' to the new project address
-```
-```text
+
 that is ok!
 ```
 
